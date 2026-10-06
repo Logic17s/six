@@ -123,7 +123,6 @@ controls:
   scripts:
     - paths: ../platforms/windows/scripts/*.ps1
     - paths: ../platforms/macos/scripts/*.sh
-    - paths: ../platforms/windows/scripts/*.ps1
     - paths: ../platforms/linux/scripts/*.sh
 
 ###########################################################
