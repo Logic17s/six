@@ -16,6 +16,12 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 name: "💻 Workstations"
 controls:
+  apple_settings:
+    configuration_profiles:
+      - path: ../platforms/macos/declaration-profiles/macos27-deferral.json
+        labels_exclude_any:
+          - macos 27 beta testers
+          
   setup_experience:
     ###########################################################
     # Configure the macOS setup experience
@@ -115,6 +121,7 @@ controls:
   # > using `paths` below.
   ###########################################################
   scripts:
+    - paths: ../platforms/windows/scripts/*.ps1
     - paths: ../platforms/macos/scripts/*.sh
     - paths: ../platforms/windows/scripts/*.ps1
     - paths: ../platforms/linux/scripts/*.sh
