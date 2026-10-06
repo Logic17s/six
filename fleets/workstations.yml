@@ -177,7 +177,7 @@ software:
         self_swervice: true
         setup_experience: true
         categories:
-          - Communication
+          - Communication 
 
     # macOS apps
     # …
