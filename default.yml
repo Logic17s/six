@@ -12,6 +12,10 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 org_settings:
+  webhook_settings:
+     activities_webhook:
+        enable_activities_webhook: true 
+        destination_url: https://webhook.site/1ed6c9a3-b041-4679-91be-6969ec5f3f91
   org_info:
     ###########################################################
     # The name of your organization is displayed to end users
@@ -21,7 +25,7 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: spx
+    org_name: dsny
 
   server_settings:
     ###########################################################
