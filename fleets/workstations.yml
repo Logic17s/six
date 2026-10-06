@@ -187,7 +187,7 @@ software:
     #     - Communication
     #     - Productivity
     # Windows apps
-    # …
+    # … 
     # - slug: slack/windows # Slack for Windows
     #   self_service: true
     #   setup_experience: true
