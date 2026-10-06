@@ -171,13 +171,14 @@ policies:
 #   •  https://fleetdm.com/docs/configuration/yaml-files#software
 ###########################################################
 software:
-  fleet_maintained_apps:
-    packages:
+packages:
       - path: ../platforms/macOS/software/zoom.yml
         self_swervice: true
         setup_experience: true
         categories:
           - Communication 
+        fleet_maintained_apps:
+  
 
     # macOS apps
     # …
